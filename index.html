@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <title>BidEase-Login/Sign up</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <!-- Logo -->
+        <a href="#" class="navbar-logo">
+          <img src="logo.png" alt="BidEase Logo" class="logo-image">
+        </a>
+
+        <!-- Navigation Links -->
+        <ul class="navbar-links">
+          <li><a href="/homescreen/home.html">Home</a></li>
+          <li><a href="/homescreen/auction.html">Auction</a></li>
+          <li><a href="/homescreen/sell.html">Sell</a></li>
+          <li><a href="/homescreen/about.html">About Us</a></li>
+        </ul>
+
+        <!-- Search Bar -->
+        <form class="search-form">
+          <input type="text" placeholder="Search" class="search-input" />
+          
+        </form>
+
+        <!-- Toggle Button for Mobile -->
+        <div class="navbar-toggle" id="toggleButton">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="container">
+      <div class="sign-up">
+        <form>
+          <h1>Sign up</h1>
+          <div class="icons">
+            <a href="https://www.facebook.com/login/" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <span>or use email for registeration</span>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="sign-in">
+        <form>
+          <h1>login</h1>
+          <div class="icons">
+            <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <span>or use email & password</span>
+          <input type="text" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Forgot password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="toogle-container">
+        <div class="toogle">
+          <div class="toogle-panel toogle-left">
+            <h1>Create Account</h1>
+            <p>Create an account to dive into the world of auctions and unveil hidden treasures. As a member of BidEase, you'll gain exclusive access to bid on unique, one-of-a-kind items, from vintage gems to intriguing antiques. Don't miss out on the excitement – sign up now and embark on a journey where every bid is a step closer to uncovering extraordinary finds! Join the auction adventure today!
+            </p>
+            <button class="hidden" id="login">Already have an account?<a href="#" style="color: antiquewhite;"> Login here</a></button>
+          </div>
+          <div class="toogle-panel toogle-right">
+            <h1>Welcome Back!</h1>
+            <p>
+              "Welcome back! We're thrilled to see you again. Log in to BidEase
+              and resume your journey into the world of exclusive auctions. Your
+              next winning bid could be just a click away. Happy bidding!"
+            </p>
+            <button class="hidden" id="register">
+              Don't have an account?
+              <a href="#" style="color: antiquewhite">Sign Up here </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subscribe">
+      <div class="message">
+        <h1>STAY UP TO DATE ABOUT OUR LATEST AUCTIONS</h1>
+      </div>
+      <div class="input">
+        <input
+          type="email"
+          placeholder="Enter your email address"
+          class="email"
+        />
+        <button class="button">Subscribe</button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="bidease">
+        <h1>bidEase</h1>
+        <p>Join online auctions and find unique items to buy and sell with excitement!</p>
+        <div class="icons">
+          <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="company">
+        <h3>COMPANY</h3>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Career</a></li>
+      </div>
+      <div class="help">
+        <h3>HELP</h3>
+          <li><a href="#">Customer Support</a></li>
+          <li><a href="#">Delivery Details</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+      </div>
+      <div class="faq">
+        <h3>FAQ</h3>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Manage Deliveries</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Payments</a></li>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
